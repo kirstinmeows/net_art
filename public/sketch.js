@@ -23,7 +23,7 @@ function draw()
 
  function drawStars()
 {
-//Iiteration of stars in a 16 x 9 grid, with additional padding to ensure stars appear offscreen
+//Iteration of stars in a 16 x 9 grid, with additional padding to ensure stars appear offscreen
    for (y = -100; y < (windowHeight +300); y += (windowHeight +100) / 9){ for (x = -100; x < (windowWidth +300); x += (windowWidth +100) / 16)
    {
        pointedStar(x, y, 5, 20, 10)
